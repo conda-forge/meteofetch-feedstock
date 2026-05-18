@@ -1,5 +1,5 @@
 {% set name = "meteofetch" %}
-{% set version = "0.5.6" %}
+{% set version = "0.5.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/meteofetch-{{ version }}.tar.gz
-  sha256: a50cb8670bf383a5e3478a55cab8313fed49bf69d5e3805437ef4e45c87926ca
+  sha256: 7dcecbf75b8527a4520ac03c3513e4147d4ae92a03bd2e498818f200eeb5a86c
 
 build:
   noarch: python
